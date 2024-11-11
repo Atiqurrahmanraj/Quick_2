@@ -1,0 +1,477 @@
+/* 
+  ##Device = Galxi fold screen resulation
+  ##Screen = B/w 279px to 319px
+*/
+@media (min-width: 279px) and (max-width: 319px){
+
+    /* css start */
+    .container {
+        width: 100%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 10px;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+    }
+    .navbar li a{
+        font-size: 9px;
+        margin: 5px 0px 0px 10px;
+    }
+
+    .bannar {
+        width: 100%;
+        text-align: center;
+        padding: 60px 0px 40px;
+    }
+    .bannar h1{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .bannar p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .bannar img{
+        width: 80%;
+    }
+
+    .successfull {
+        margin: 0px 8px;
+        padding-bottom: 35px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 9px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+
+    .feature{
+        margin: 0px 8px;
+        padding-bottom: 15px;
+    }
+    .feature-box{
+        padding: 40px 30px;
+        margin-bottom: 12px;
+    }
+    .feature-box img {
+        height: 150px;
+    }
+    .feature-box h4 {
+        font-size: 11px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+    }
+    .feature-box p {
+        font-size: 9px;
+        line-height: 1.7em;
+        color: #0B2253;
+        margin-bottom: 0px;
+    }
+
+    .about-h {
+        font-size: 20px;
+        line-height: 1.7em;
+        font-weight: 700;
+        text-align: center;
+        color: #0B2253;
+    }
+    .about-p {
+        font-size: 9px;
+        line-height: 1.2em;
+        text-align: justify;
+        margin: 20px auto;
+        color: #0B2253;
+    }
+
+    .footer {
+        padding: 20px 15px;
+        background-color: #008AFF;
+    }
+    .footer p{
+        font-size: 9px;
+    }
+    /* css end */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS start */
+    .container {
+        width: 100%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 10px;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+    }
+    .navbar li a{
+        font-size: 11px;
+        margin: 5px 0px 0px 10px;
+    }
+
+    .bannar {
+        width: 100%;
+        text-align: center;
+        padding: 60px 0px 40px;
+    }
+    .bannar h1{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .bannar p{
+        font-size: 10px;
+        line-height: 1.7em;
+    }
+    .bannar img{
+        width: 80%;
+    }
+
+    .successfull {
+        margin: 0px 8px;
+        padding-bottom: 35px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 10px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+
+    .feature{
+        margin: 0px 8px;
+        padding-bottom: 15px;
+    }
+    .feature-box{
+        padding: 40px 30px;
+        margin-bottom: 12px;
+    }
+    .feature-box img {
+        height: 150px;
+    }
+    .feature-box h4 {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+    }
+    .feature-box p {
+        font-size: 11px;
+        line-height: 1.7em;
+        color: #0B2253;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding: 20px 15px;
+        background-color: #008AFF;
+    }
+    .footer p{
+        font-size: 11px;
+    }
+  /* CSS end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS start */
+    .container {
+        width: 100%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 15px;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+
+    .logo{
+        display: block;
+        text-align: center;
+    }
+    .navbar {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+    }
+    .navbar li a{
+        font-size: 12px;
+        margin: 5px 0px 0px 10px;
+    }
+
+    .bannar {
+        width: 100%;
+        text-align: center;
+        padding: 60px 0px 40px;
+    }
+    .bannar h1{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .bannar p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .bannar img{
+        width: 80%;
+    }
+
+    .successfull {
+        margin: 0px 30px;
+        padding-bottom: 40px;
+    }
+    .left-success{
+        text-align: left;
+    }
+    .left-success h1{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 11px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+
+    .feature{
+        margin: 0px 30px;
+        padding-bottom: 20px;
+    }
+    .feature-box{
+        padding: 40px 30px;
+        margin-bottom: 12px;
+    }
+    .feature-box img {
+        height: 150px;
+    }
+    .feature-box h4 {
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+    }
+    .feature-box p {
+        font-size: 12px;
+        line-height: 1.7em;
+        color: #0B2253;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding: 20px 20px;
+        background-color: #008AFF;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    /* CSS end */
+    
+  }
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS start */
+    .container {
+        width: 100%;
+        float: left;
+    }
+    .row{
+        width: 100%;
+        float: left;
+        padding: 0px 20px;
+    }
+    .col-6{
+        width: 50%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+
+    .logo{
+        display: block;
+        padding: 0px 25px;
+        /* text-align: center; */
+    }
+    .navbar {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+    }
+    .navbar li a{
+        font-size: 13px;
+        margin: 5px 0px 0px 10px;
+    }
+
+    .bannar {
+        width: 100%;
+        text-align: center;
+        padding: 60px 30px 40px;
+    }
+    .bannar h1{
+        font-size: 29px;
+        line-height: 1.2em;
+    }
+    .bannar p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .bannar img{
+        width: 80%;
+    }
+
+    .successfull {
+        margin: 0px 30px;
+        padding-bottom: 40px;
+    }
+    .successfull .col-6{
+        width: 50%;
+        float: left;
+    }
+    .left-success{
+        text-align: right;
+    }
+    .left-success h1{
+        font-size: 29px;
+        line-height: 1.2em;
+    }
+    .left-success p{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+    .right-success h1{
+        font-size: 29px;
+        line-height: 1.2em;
+    }
+
+    .feature{
+        margin: 0px 30px;
+        padding: 10px 25px;
+    }
+    .feature-box{
+        padding: 40px 30px;
+        margin-bottom: 12px;
+    }
+    .feature-box img {
+        height: 150px;
+    }
+    .feature-box h4 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 6px;
+    }
+    .feature-box p {
+        font-size: 13px;
+        line-height: 1.7em;
+        color: #0B2253;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        padding: 20px 48px;
+        background-color: #008AFF;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+    /* CSS end */
+    
+  }
